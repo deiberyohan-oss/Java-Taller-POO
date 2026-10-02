@@ -8,6 +8,8 @@ public class Main {
         };
         for (Persona persona : comunidad) {
             persona.mostrarInformacion();
+            persona.mostrarInformacionEspecifica();
+            System  .out.println("---------------");
         }
     }
 }
